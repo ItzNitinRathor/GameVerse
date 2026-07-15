@@ -24,6 +24,18 @@ navItems.forEach((item) => {
 
     });
 
+    item.addEventListener("click", () => {
+
+        navItems.forEach((link) => {
+
+            link.classList.remove("active");
+
+        });
+
+        item.classList.add("active");
+
+    });
+
 });
 
 // Hamburger Menu End
@@ -82,4 +94,7 @@ scrollBtn.addEventListener("click", () => {
 
 // Scroll Effect End
 
+
+
+// Active Navigation on Click
 

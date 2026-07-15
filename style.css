@@ -62,6 +62,14 @@ nav.scrolled {
 
 }
 
+.nav-links a.active{
+
+    color: #8B5CF6;
+
+}
+
+
+
 nav h2 {
 
     color: white;
